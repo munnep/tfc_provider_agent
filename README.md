@@ -3,13 +3,13 @@
 This exercise will create an agent pool in Terraform Cloud using the tfe provider and resources. After the creation you start a docker image with HashiCorp agent software that will connect to Terraform Cloud. You can then connect this agent to a workspace and run Terraform code using this agent. 
 
 Official documentation:
-[HashiCorp Agents](https://www.terraform.io/cloud-docs/agents)
+[HashiCorp Agents](https://www.terraform.io/cloud-docs/agents)  
 [Terraform Resources](https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/resources/agent_pool)
 
 # Prerequesites
 
 - Have a Terraform Cloud account 
-See the following link [Terraform Cloud[(https://app.terraform.io/signup/account)
+See the following link [Terraform Cloud](https://app.terraform.io/signup/account)
 
 ## Install Docker
 See the following documentation [How to install Docker](https://www.docker.com/products/docker-desktop/)
